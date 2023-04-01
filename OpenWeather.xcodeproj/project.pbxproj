@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		30B0160129CCC25F004EFC98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B0160029CCC25F004EFC98 /* AppDelegate.swift */; };
 		30B0160329CCC25F004EFC98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B0160229CCC25F004EFC98 /* SceneDelegate.swift */; };
-		30B0160529CCC25F004EFC98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B0160429CCC25F004EFC98 /* ViewController.swift */; };
+		30B0160529CCC25F004EFC98 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B0160429CCC25F004EFC98 /* LoginViewController.swift */; };
 		30B0160829CCC25F004EFC98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B0160629CCC25F004EFC98 /* Main.storyboard */; };
 		30B0160B29CCC25F004EFC98 /* OpenWeather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30B0160929CCC25F004EFC98 /* OpenWeather.xcdatamodeld */; };
 		30B0160D29CCC261004EFC98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B0160C29CCC261004EFC98 /* Assets.xcassets */; };
@@ -20,7 +20,7 @@
 		30B015FD29CCC25F004EFC98 /* OpenWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B0160029CCC25F004EFC98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30B0160229CCC25F004EFC98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		30B0160429CCC25F004EFC98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30B0160429CCC25F004EFC98 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		30B0160729CCC25F004EFC98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30B0160A29CCC25F004EFC98 /* OpenWeather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OpenWeather.xcdatamodel; sourceTree = "<group>"; };
 		30B0160C29CCC261004EFC98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 			children = (
 				30B0160029CCC25F004EFC98 /* AppDelegate.swift */,
 				30B0160229CCC25F004EFC98 /* SceneDelegate.swift */,
-				30B0160429CCC25F004EFC98 /* ViewController.swift */,
+				30B0160429CCC25F004EFC98 /* LoginViewController.swift */,
 				30B0160629CCC25F004EFC98 /* Main.storyboard */,
 				30B0160C29CCC261004EFC98 /* Assets.xcassets */,
 				30B0160E29CCC261004EFC98 /* LaunchScreen.storyboard */,
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30B0160529CCC25F004EFC98 /* ViewController.swift in Sources */,
+				30B0160529CCC25F004EFC98 /* LoginViewController.swift in Sources */,
 				30B0160129CCC25F004EFC98 /* AppDelegate.swift in Sources */,
 				30B0160B29CCC25F004EFC98 /* OpenWeather.xcdatamodeld in Sources */,
 				30B0160329CCC25F004EFC98 /* SceneDelegate.swift in Sources */,

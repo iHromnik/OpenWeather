@@ -10,6 +10,9 @@ import UIKit
 class LoginViewController: UIViewController {
 
     @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var loginTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -21,9 +24,11 @@ class LoginViewController: UIViewController {
         view.endEditing(true)
     }
     override func viewWillAppear(_ animated: Bool) {
+        
         NotificationCenter.default.addObserver(self, selector: #selector(willShowKeyboard), name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(willHideKeyboard), name: UIResponder.keyboardWillHideNotification, object: nil)
         
+//        navigationController?.setNavigationBarHidden(true, animated: true)
         
     }
 
@@ -37,6 +42,30 @@ class LoginViewController: UIViewController {
     
     @objc func willHideKeyboard(_ notification: Notification) {
         scrollView.contentInset = .zero
+    }
+    
+    
+    @IBAction func loginButtom(_ sender: Any) {
+        
+        guard loginTextField.text == "",
+              passwordTextField.text == ""
+                else {
+            showAlert(massage: "Wrong login or password")
+            return
+            
+        }
+      
+        performSegue(withIdentifier: "login", sender: nil)
+                
+    }
+    
+    
+    func showAlert(massage: String) {
+        let alertVC = UIAlertController(title: "Error", message: massage, preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "Ok", style: .default)
+        alertVC.addAction(okAction)
+        present(alertVC, animated: true)
+        
     }
     
 }

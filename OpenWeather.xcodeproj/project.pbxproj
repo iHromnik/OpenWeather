@@ -14,6 +14,12 @@
 		30B0160B29CCC25F004EFC98 /* OpenWeather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30B0160929CCC25F004EFC98 /* OpenWeather.xcdatamodeld */; };
 		30B0160D29CCC261004EFC98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B0160C29CCC261004EFC98 /* Assets.xcassets */; };
 		30B0161029CCC261004EFC98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B0160E29CCC261004EFC98 /* LaunchScreen.storyboard */; };
+		30D02E3C29DC8C0F0022919C /* AllCitiesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D02E3B29DC8C0F0022919C /* AllCitiesController.swift */; };
+		30D02E3E29DC8C2A0022919C /* AllCitiesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D02E3D29DC8C2A0022919C /* AllCitiesCell.swift */; };
+		30D02E4029DC900C0022919C /* MyCitiesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D02E3F29DC900C0022919C /* MyCitiesCell.swift */; };
+		30D02E4229DC90200022919C /* MyCitiesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D02E4129DC90200022919C /* MyCitiesController.swift */; };
+		30D02E4429DC9A560022919C /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D02E4329DC9A560022919C /* WeatherViewController.swift */; };
+		30D02E4629DC9A6E0022919C /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D02E4529DC9A6E0022919C /* WeatherCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		30B0160C29CCC261004EFC98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30B0160F29CCC261004EFC98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30B0161129CCC261004EFC98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D02E3B29DC8C0F0022919C /* AllCitiesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCitiesController.swift; sourceTree = "<group>"; };
+		30D02E3D29DC8C2A0022919C /* AllCitiesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCitiesCell.swift; sourceTree = "<group>"; };
+		30D02E3F29DC900C0022919C /* MyCitiesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCitiesCell.swift; sourceTree = "<group>"; };
+		30D02E4129DC90200022919C /* MyCitiesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCitiesController.swift; sourceTree = "<group>"; };
+		30D02E4329DC9A560022919C /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		30D02E4529DC9A6E0022919C /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,12 @@
 				30B0160229CCC25F004EFC98 /* SceneDelegate.swift */,
 				30B0160429CCC25F004EFC98 /* LoginViewController.swift */,
 				30B0160629CCC25F004EFC98 /* Main.storyboard */,
+				30D02E3B29DC8C0F0022919C /* AllCitiesController.swift */,
+				30D02E3F29DC900C0022919C /* MyCitiesCell.swift */,
+				30D02E4129DC90200022919C /* MyCitiesController.swift */,
+				30D02E4329DC9A560022919C /* WeatherViewController.swift */,
+				30D02E4529DC9A6E0022919C /* WeatherCell.swift */,
+				30D02E3D29DC8C2A0022919C /* AllCitiesCell.swift */,
 				30B0160C29CCC261004EFC98 /* Assets.xcassets */,
 				30B0160E29CCC261004EFC98 /* LaunchScreen.storyboard */,
 				30B0161129CCC261004EFC98 /* Info.plist */,
@@ -141,10 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D02E3C29DC8C0F0022919C /* AllCitiesController.swift in Sources */,
+				30D02E4429DC9A560022919C /* WeatherViewController.swift in Sources */,
 				30B0160529CCC25F004EFC98 /* LoginViewController.swift in Sources */,
 				30B0160129CCC25F004EFC98 /* AppDelegate.swift in Sources */,
 				30B0160B29CCC25F004EFC98 /* OpenWeather.xcdatamodeld in Sources */,
+				30D02E3E29DC8C2A0022919C /* AllCitiesCell.swift in Sources */,
+				30D02E4029DC900C0022919C /* MyCitiesCell.swift in Sources */,
+				30D02E4229DC90200022919C /* MyCitiesController.swift in Sources */,
 				30B0160329CCC25F004EFC98 /* SceneDelegate.swift in Sources */,
+				30D02E4629DC9A6E0022919C /* WeatherCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
